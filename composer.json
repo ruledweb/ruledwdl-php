@@ -1,0 +1,22 @@
+{
+  "name": "ruledwdl/ruledwdl-php",
+  "description": "PHP port of the Web Definition Language (WDL) core layout engine",
+  "license": "AGPL-3.0-or-later",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Pradeep Dabane"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "WDL\\": "src/"
+    }
+  }
+}
