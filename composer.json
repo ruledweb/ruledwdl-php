@@ -5,9 +5,18 @@
   "type": "library",
   "authors": [
     {
-      "name": "Pradeep Dabane"
+      "name": "Pradeep Dabane",
+      "email": "pradeep@ruledweb.com",
+      "homepage": "https://ruledweb.com",
+      "role": "Developer"
     }
   ],
+  "keywords": ["wdl", "ruledwdl", "web-definition-language", "layout-engine", "html", "renderer"],
+  "homepage": "https://github.com/ruledweb/ruledwdl-php",
+  "support": {
+    "source": "https://github.com/ruledweb/ruledwdl-php",
+    "issues": "https://github.com/ruledweb/ruledwdl-php/issues"
+  },
   "require": {
     "php": ">=7.4"
   },
@@ -18,5 +27,6 @@
     "psr-4": {
       "WDL\\": "src/"
     }
-  }
+  },
+  "minimum-stability": "stable"
 }
